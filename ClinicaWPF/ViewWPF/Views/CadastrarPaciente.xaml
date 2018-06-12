@@ -1,0 +1,67 @@
+﻿<Window x:Class="ViewWPF.Views.CadastrarPaciente"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ViewWPF.Views"
+        mc:Ignorable="d"
+        Title="CadastrarPaciente" Height="234.545" Width="355.909" WindowStartupLocation="CenterScreen">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="25*"/>
+            <ColumnDefinition Width="75*"/>
+        </Grid.ColumnDefinitions>
+
+        <!--Labels-->
+        <Label x:Name="lblNome" Content="Nome:" Grid.Row="0" Grid.Column="0" 
+               HorizontalAlignment="Right" VerticalAlignment="Center"/>
+
+        <Label x:Name="lblCpf" Content="CPF:" Grid.Row="1" Grid.Column="0" 
+               HorizontalAlignment="Right" VerticalAlignment="Center"/>
+
+        <Label x:Name="lblTelefone" Content="Telefone:" Grid.Row="2" Grid.Column="0" 
+               HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <!--Labels-->
+        
+        <!--TextBoxs-->
+        <TextBox x:Name="txtNome" Grid.Row="0" Grid.Column="1" 
+                 HorizontalAlignment="Stretch" VerticalAlignment="Center"
+                 Margin="0,0,15,0" FontSize="12" Padding="5" TabIndex="0">
+        </TextBox>
+
+        <TextBox x:Name="txtCpf" Grid.Row="1" Grid.Column="1" 
+                 HorizontalAlignment="Stretch" VerticalAlignment="Center"
+                 Margin="0,0,15,0" FontSize="12" Padding="5" TabIndex="1"/>
+
+        <TextBox x:Name="txtTelefone" Grid.Row="2" Grid.Column="1" 
+                 HorizontalAlignment="Stretch" VerticalAlignment="Center"
+                 Margin="0,0,15,0" FontSize="12" Padding="5" TabIndex="1"/>
+        <!--TextBoxs-->
+        
+        <!--Buttons-->
+        <Button x:Name="btnGravar" Content="Gravar" Grid.Row="3" 
+                Grid.Column="1" HorizontalAlignment="Left" 
+                VerticalAlignment="Center" FontSize="12" Padding="5" 
+                TabIndex="2" Margin="0,7,0,10" Click="btnGravar_Click"/>
+
+        <Button x:Name="btnBuscar" Content="Buscar" Grid.Row="3" 
+                Grid.Column="1" HorizontalAlignment="Left" 
+                VerticalAlignment="Center" FontSize="12" Padding="5" 
+                Margin="100,10,0,13" TabIndex="3" Click="btnBuscar_Click"/>
+        
+        <Button x:Name="btnAlterar" Content="Alterar" Grid.Row="3" 
+                Grid.Column="1" HorizontalAlignment="Left" 
+                VerticalAlignment="Center" FontSize="12" Padding="5" 
+                Margin="198,10,0,13" TabIndex="3"
+                IsEnabled="False" Click="btnAlterar_Click" />
+        <!--Buttons-->
+
+    </Grid>
+</Window>

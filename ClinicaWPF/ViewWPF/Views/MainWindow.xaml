@@ -1,0 +1,39 @@
+﻿<Window x:Class="ViewWPF.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ViewWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525"
+        Background="DarkGray">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="10*" />
+            
+        </Grid.RowDefinitions>
+        
+        <!--Topo - Bem Vindo-->
+        <StackPanel Name="pnlBemVindo">
+            <TextBlock Text="Bem vindo Fulano" />
+        </StackPanel>
+        
+        <!--Topo - Sair-->
+        <StackPanel Name="pnlLogout" Grid.Column="1">
+            <Button Name="btnLogout" Content="Logout" Click="btnLogout_Click" />
+        </StackPanel>
+        
+        <!--Menu-->
+        <StackPanel Name="pnlMenu"
+                    Grid.Column="0"
+                    Grid.Row="1">
+            <TextBlock Text="Menu" />
+        </StackPanel>
+        
+    </Grid>
+</Window>

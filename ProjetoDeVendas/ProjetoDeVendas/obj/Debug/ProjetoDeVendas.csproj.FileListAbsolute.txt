@@ -1,0 +1,36 @@
+C:\Users\Aluno\Documentos\Visual Studio 2015\Projects\ProjetoDeVendas\ProjetoDeVendas\bin\Debug\ProjetoDeVendas.exe.config
+C:\Users\Aluno\Documentos\Visual Studio 2015\Projects\ProjetoDeVendas\ProjetoDeVendas\bin\Debug\ProjetoDeVendas.exe
+C:\Users\Aluno\Documentos\Visual Studio 2015\Projects\ProjetoDeVendas\ProjetoDeVendas\bin\Debug\ProjetoDeVendas.pdb
+C:\Users\Aluno\Documentos\Visual Studio 2015\Projects\ProjetoDeVendas\ProjetoDeVendas\obj\Debug\ProjetoDeVendas.csprojResolveAssemblyReference.cache
+C:\Users\Aluno\Documentos\Visual Studio 2015\Projects\ProjetoDeVendas\ProjetoDeVendas\obj\Debug\ProjetoDeVendas.exe
+C:\Users\Aluno\Documentos\Visual Studio 2015\Projects\ProjetoDeVendas\ProjetoDeVendas\obj\Debug\ProjetoDeVendas.pdb
+C:\Users\Aluno\Downloads\Aula23_02-20170302T220601Z-001\Aula23_02\ProjetoDeVendas\ProjetoDeVendas\bin\Debug\ProjetoDeVendas.exe.config
+C:\Users\Aluno\Downloads\Aula23_02-20170302T220601Z-001\Aula23_02\ProjetoDeVendas\ProjetoDeVendas\obj\Debug\ProjetoDeVendas.exe
+C:\Users\Aluno\Downloads\Aula23_02-20170302T220601Z-001\Aula23_02\ProjetoDeVendas\ProjetoDeVendas\obj\Debug\ProjetoDeVendas.pdb
+C:\Users\Aluno\Downloads\Aula23_02-20170302T220601Z-001\Aula23_02\ProjetoDeVendas\ProjetoDeVendas\bin\Debug\ProjetoDeVendas.exe
+C:\Users\Aluno\Downloads\Aula23_02-20170302T220601Z-001\Aula23_02\ProjetoDeVendas\ProjetoDeVendas\bin\Debug\ProjetoDeVendas.pdb
+C:\Users\Aluno\Downloads\Aula23_02-20170302T220601Z-001\Aula23_02\ProjetoDeVendas\ProjetoDeVendas\obj\Debug\ProjetoDeVendas.csprojResolveAssemblyReference.cache
+C:\Users\Aluno\Downloads\Aula23_02\Aula23_02\ProjetoDeVendas\ProjetoDeVendas\bin\Debug\ProjetoDeVendas.exe.config
+C:\Users\Aluno\Downloads\Aula23_02\Aula23_02\ProjetoDeVendas\ProjetoDeVendas\obj\Debug\ProjetoDeVendas.exe
+C:\Users\Aluno\Downloads\Aula23_02\Aula23_02\ProjetoDeVendas\ProjetoDeVendas\obj\Debug\ProjetoDeVendas.pdb
+C:\Users\Aluno\Downloads\Aula23_02\Aula23_02\ProjetoDeVendas\ProjetoDeVendas\obj\Debug\ProjetoDeVendas.csprojResolveAssemblyReference.cache
+C:\Users\Aluno\Downloads\Aula23_02\Aula23_02\ProjetoDeVendas\ProjetoDeVendas\bin\Debug\ProjetoDeVendas.exe
+C:\Users\Aluno\Downloads\Aula23_02\Aula23_02\ProjetoDeVendas\ProjetoDeVendas\bin\Debug\ProjetoDeVendas.pdb
+C:\Users\Aluno\Downloads\Aula23_02\Aula23_02\Aula23_02\ProjetoDeVendas\ProjetoDeVendas\bin\Debug\ProjetoDeVendas.exe.config
+C:\Users\Aluno\Downloads\Aula23_02\Aula23_02\Aula23_02\ProjetoDeVendas\ProjetoDeVendas\obj\Debug\ProjetoDeVendas.exe
+C:\Users\Aluno\Downloads\Aula23_02\Aula23_02\Aula23_02\ProjetoDeVendas\ProjetoDeVendas\obj\Debug\ProjetoDeVendas.pdb
+C:\Users\Aluno\Downloads\Aula23_02\Aula23_02\Aula23_02\ProjetoDeVendas\ProjetoDeVendas\bin\Debug\ProjetoDeVendas.exe
+C:\Users\Aluno\Downloads\Aula23_02\Aula23_02\Aula23_02\ProjetoDeVendas\ProjetoDeVendas\bin\Debug\ProjetoDeVendas.pdb
+C:\Users\Aluno\Downloads\Aula23_02\Aula23_02\Aula23_02\ProjetoDeVendas\ProjetoDeVendas\obj\Debug\ProjetoDeVendas.csprojResolveAssemblyReference.cache
+C:\Users\Aluno\Downloads\ProjetoDeVendas\ProjetoDeVendas\ProjetoDeVendas\bin\Debug\ProjetoDeVendas.exe.config
+C:\Users\Aluno\Downloads\ProjetoDeVendas\ProjetoDeVendas\ProjetoDeVendas\obj\Debug\ProjetoDeVendas.exe
+C:\Users\Aluno\Downloads\ProjetoDeVendas\ProjetoDeVendas\ProjetoDeVendas\obj\Debug\ProjetoDeVendas.pdb
+C:\Users\Aluno\Downloads\ProjetoDeVendas\ProjetoDeVendas\ProjetoDeVendas\bin\Debug\ProjetoDeVendas.exe
+C:\Users\Aluno\Downloads\ProjetoDeVendas\ProjetoDeVendas\ProjetoDeVendas\bin\Debug\ProjetoDeVendas.pdb
+C:\Users\Aluno\Downloads\ProjetoDeVendas\ProjetoDeVendas\ProjetoDeVendas\obj\Debug\ProjetoDeVendas.csprojResolveAssemblyReference.cache
+F:\Documents\ProjetoDeVendas\ProjetoDeVendas\bin\Debug\ProjetoDeVendas.exe.config
+F:\Documents\ProjetoDeVendas\ProjetoDeVendas\obj\Debug\ProjetoDeVendas.exe
+F:\Documents\ProjetoDeVendas\ProjetoDeVendas\obj\Debug\ProjetoDeVendas.pdb
+F:\Documents\ProjetoDeVendas\ProjetoDeVendas\bin\Debug\ProjetoDeVendas.exe
+F:\Documents\ProjetoDeVendas\ProjetoDeVendas\bin\Debug\ProjetoDeVendas.pdb
+F:\Documents\ProjetoDeVendas\ProjetoDeVendas\obj\Debug\ProjetoDeVendas.csprojResolveAssemblyReference.cache
