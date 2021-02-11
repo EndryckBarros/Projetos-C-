@@ -1,0 +1,131 @@
+﻿@section scripts {
+	@Scripts.Render("~/bundles/App")
+	@Scripts.Render("~/bundles/bootstrap")
+}
+
+<div class="page-header">
+	<h1>Controle de Livros</h1>
+</div>
+
+<div class="row">
+
+	<div class="col-md-4">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h2 class="panel-title">Livros</h2>
+			</div>
+			<div class="panel-body text-center">
+				<ul class="list-unstyled" data-bind="foreach: livros">
+					<li>
+						<strong><span data-bind="text: Titulo"></span></strong>:  <span data-bind="text: NomeAutor"></span>
+						<div>
+							<small><a href="#" data-bind="click: $parent.getBookDetail">Detalhes</a></small> ||
+							<small><a href="#" data-bind="click: $parent.deleteBook">Deletar</a></small> ||
+							<small><a href="#" data-bind="click: $parent.getBookForPut">Editar</a></small>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="alert alert-danger text-center" data-bind="visible: error"><p data-bind="text: error"></p></div>
+		<div class="alert alert-success text-center" data-bind="visible: sucess"><p data-bind="text: sucess"></p></div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h2 class="panel-title">Adicionar Livro</h2>
+			</div>
+
+			<div class="panel-body">
+				<form class="form-horizontal" data-bind="submit: addBook">
+					<div class="form-group">
+						<label for="inputAuthor" class="col-sm-2 control-label">Autor</label>
+						<div class="col-sm-10">
+							<select data-bind="options:autores, optionsText: 'Nome', value: novoLivro.Autor"></select>
+						</div>
+					</div>
+
+					<div class="form-group" data-bind="with: novoLivro">
+						<label for="inputTitle" class="col-sm-2 control-label">Titulo</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="inputTitle" data-bind="value:Titulo" required />
+						</div>
+
+						<label for="inputYear" class="col-sm-2 control-label">Ano</label>
+						<div class="col-sm-10">
+							<input type="number" class="form-control" id="inputYear" data-bind="value:Ano" required />
+						</div>
+
+						<label for="inputGenre" class="col-sm-2 control-label">Genero</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="inputGenre" data-bind="value:Genero" />
+						</div>
+
+						<label for="inputPrice" class="col-sm-2 control-label">Preço</label>
+						<div class="col-sm-10">
+							<input type="number" step="any" class="form-control" id="inputPrice" data-bind="value:Preco" required />
+						</div>
+					</div>
+					<button type="submit" class="btn btn-primary">Cadastrar</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!-- ko if:detalhe() -->
+	<div class="col-md-4">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h2 class="panel-title">Detalhes</h2>
+			</div>
+			<table class="table">
+				<tr><td>Autor</td><td data-bind="text: detalhe().NomeAutor"></td></tr>
+				<tr><td>Titulo</td><td data-bind="text: detalhe().Titulo"></td></tr>
+				<tr><td>Ano</td><td data-bind="text: detalhe().Ano"></td></tr>
+				<tr><td>Genero</td><td data-bind="text: detalhe().Genero"></td></tr>
+				<tr><td>Preço</td><td data-bind="text: detalhe().Preco"></td></tr>
+			</table>
+		</div>
+	</div>
+	<!-- /ko -->
+
+</div>
+<div class="row">
+	<div class="col-md-4">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h2 class="panel-title">Autores</h2>
+			</div>
+			<div class="panel-body">
+				<ul class="list-unstyled text-center" data-bind="foreach: autores">
+					<li>
+						<strong><span data-bind="text: Nome"></span></strong>
+						<small><a href="#" data-bind="click: $parent.deleteAutor">Deletar</a></small>
+						
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h2 class="panel-title">Adicionar Autor</h2>
+			</div>
+
+			<div class="panel-body">
+				<form class="form-horizontal" data-bind="submit: addAutor">
+					<div class="form-group" data-bind="with: novoAutor">
+						<label for="inputNameA" class="col-sm-2 control-label">Nome</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="inputNameA" data-bind="value:Nome" required />
+						</div>
+					</div>
+					<button type="submit" class="btn btn-primary">Cadastrar</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
